@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import ReactTooltip from 'react-tooltip';
+import React from 'react'
+
 
 export const ToggleBtn = ({names, mode, setMode}) => {
     

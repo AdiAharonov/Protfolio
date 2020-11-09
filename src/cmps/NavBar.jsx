@@ -38,45 +38,45 @@ export const NavBar = () => {
         <Link
           to="about"
           smooth={true}
-          offset={50}
-          duration={500}
+          offset={0}
+          duration={300}
           className="navbar-btn"
         >
-          <span className="navbar-num">01. </span>About
+          About
         </Link>
         <Link
           to="skills"
           smooth={true}
-          offset={50}
-          duration={500}
+          offset={0}
+          duration={300}
           className="navbar-btn"
         >
-          <span className="navbar-num">02. </span>Skills
+          Skills
         </Link>
         <Link
           to="work"
           smooth={true}
-          offset={50}
-          duration={500}
+          offset={0}
+          duration={300}
           className="navbar-btn"
         >
-          <span className="navbar-num">03. </span>Work
+          Work
         </Link>
         <Link
           to="contact"
           smooth={true}
-          offset={50}
-          duration={500}
+          offset={0}
+          duration={300}
           className="navbar-btn"
         >
-          <span className="navbar-num">04. </span>Contact
+          Contact
         </Link>
         <a
           download="Adi-Aharonov-CV.pdf"
           href="resume/CV.pdf"
           className="resume-btn"
         >
-          Resume
+          - Resume -
         </a>
       </div>
     </div>

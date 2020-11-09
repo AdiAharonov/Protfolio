@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 export const Card = ({gif, alt, header, content, tech, reg, src, mode}) => {
 
-    // const [show, setShow] = useState(false);
+  
 
 
     return (

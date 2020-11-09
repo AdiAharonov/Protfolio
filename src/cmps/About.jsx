@@ -11,7 +11,7 @@ export  function About({mode}) {
     
 
     return (
-        <div className="about">
+        <div className="about" name="about">
             
             
           {/* <img className="my-image" src={FormalImage} alt="formal" /> */}

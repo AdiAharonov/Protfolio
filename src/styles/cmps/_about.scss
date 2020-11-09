@@ -1,203 +1,188 @@
 .about {
-    
-    position: absolute;
-    top: 100vh;
-    width: 100vw;
-    height: 100vh;
-    z-index: 10;
+  position: absolute;
+  top: 100vh;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
 
-    display: grid;
+  display: grid;
   grid-template-columns: 1fr 2fr 3fr 1fr;
   grid-template-rows: 1fr 2fr;
   gap: 0px 0px;
   grid-template-areas:
-    ". img header back-btn"
-    ". content content .";
+    '. img header back-btn'
+    '. content content .';
 
+  .img-container {
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: img;
+    position: relative;
 
-    .img-container {
-        width: 100%;
-        z-index: 10;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        grid-area: img;
-        position: relative;
-
-        img {
-            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-            // border: 5px solid transparentize($main, 0.4);
-            width: 80%;
-            margin: 10px auto;
-            padding: 5px;
-            background: repeating-linear-gradient(
-  45deg,
-  transparentize($main, 0.6),
-  transparentize($main, 0.6) 10px,
-  transparentize($main, 0.7) 10px,
-  transparentize($main, 0.7) 20px
-);
-        }
-
-        .animated-img {
-            position:relative;
-            opacity: 1;
-            transition: opacity ease-in .3s;
-        }
-        .animated-img:hover {
-            opacity: 0;
-        }
-
-        .real-img {
-            position: absolute;
-        }
+    img {
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      width: 80%;
+      margin: 10px auto;
+      padding: 5px;
+      background: repeating-linear-gradient(
+        45deg,
+        transparentize($main, 0.6),
+        transparentize($main, 0.6) 10px,
+        transparentize($main, 0.7) 10px,
+        transparentize($main, 0.7) 20px
+      );
     }
 
+    .animated-img {
+      position: relative;
+      opacity: 1;
+      transition: opacity ease-in 0.3s;
+    }
+    .animated-img:hover {
+      opacity: 0;
+    }
+
+    .real-img {
+      position: absolute;
+    }
+  }
+
+  .header-area {
+    grid-area: header;
+
+    .header {
+      font-size: rem(46px);
+      margin: 2rem;
+      color: $main;
+    }
+
+    .motto {
+      background: repeating-linear-gradient(
+        45deg,
+        transparentize($main, 0.6),
+        transparentize($main, 0.6) 10px,
+        transparentize($main, 0.7) 10px,
+        transparentize($main, 0.7) 20px
+      );
+      color: #fff;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      width: 100%;
+      margin: 15% auto;
+      font-size: rem(40px);
+    }
+  }
+
+  .content {
+    width: 100%;
+    grid-area: content;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      width: 100%;
+      font-size: rem(24px);
+      text-align: start;
+      line-height: rem(35px);
+    }
+  }
+
+  span {
+    font-family: clean;
+  }
+
+  .center-btn {
+    position: absolute;
+    top: 48.5%;
+    right: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button {
+      font-size: rem(18px);
+      background: none;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transform: rotate(90deg);
+    }
+
+    svg {
+      transform: rotate(-90deg);
+    }
+  }
+
+  @include for-narrow-layout {
+    position: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .img-container {
+      width: 50%;
+    }
 
     .header-area {
-        grid-area: header;
+      .header {
+        margin: 15px 0;
+        font-size: rem(30px);
+      }
 
-        .header {
-            font-size: rem(46px);
-            margin: 2rem;
-            color:$main;
-        }
-    
-        .motto {
-            // background-color: transparentize($main, 0.6);
-            background: repeating-linear-gradient(
-  45deg,
-  transparentize($main, 0.6),
-  transparentize($main, 0.6) 10px,
-  transparentize($main, 0.7) 10px,
-  transparentize($main, 0.7) 20px
-);
-            color: #fff;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-            width: 100%;
-            margin: 15% auto;
-            font-size: rem(40px);
-
-        }
+      .motto {
+        width: 80%;
+        font-size: rem(24px);
+        margin: 15px auto;
+      }
     }
 
     .content {
-        width: 100%;
-        grid-area: content;
-        font-weight: 600;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      flex: 1;
 
-        p {
-            width: 100%;
-            font-size: rem(24px);
-            text-align: start;
-            line-height: rem(35px);
-        }
+      p {
+        width: 80%;
+        font-size: rem(22px);
+        text-align: center;
+      }
     }
-
-
-    span {
-        font-family: clean;
-    }
-
-    
 
     .center-btn {
-        position: absolute;
-        top: 48.5%;
-        right: 4%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-        button {
-            font-size: rem(18px);
-            background: none;
-            border: none;
-            outline: none;
-            cursor: pointer;
-            transform: rotate(90deg);
-            
-        }
+      display: none;
+    }
+  }
 
-        svg {
-            transform: rotate(-90deg);
-        }
+  @media (max-width: 350px) {
+    .header-area {
+      .header {
+        margin: 15px 0;
+        font-size: rem(24px);
+      }
+
+      .motto {
+        width: 80%;
+        font-size: rem(18px);
+        margin: 15px auto;
+      }
     }
 
-    
-    
-    @include for-narrow-layout {
-        position: inherit;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-        
-        .img-container {
-            width: 50%;
-        }
+    .content {
+      flex: 1;
 
-        .header-area {
-             .header {
-                 margin: 15px 0;
-                 font-size: rem(30px);
-             }
-
-             .motto {
-                 width: 80%;
-                 font-size: rem(24px);
-                 margin: 15px auto;
-             }
-        }
-
-        .content {
-            flex: 1;
-
-            p {
-                width: 80%;
-                font-size: rem(22px);
-                text-align: center;
-            }
-        }
-
-        .center-btn {
-            display: none;
-        }
-        
+      p {
+        width: 80%;
+        font-size: rem(16px);
+        text-align: center;
+      }
     }
+  }
 
-    @media (max-width: 350px) {
-        .header-area {
-            .header {
-                margin: 15px 0;
-                font-size: rem(24px);
-            }
-
-            .motto {
-                width: 80%;
-                font-size: rem(18px);
-                margin: 15px auto;
-            }
-       }
-
-       .content {
-           flex: 1;
-
-           p {
-               width: 80%;
-               font-size: rem(16px);
-               text-align: center;
-           }
-       }
+  @media (max-width: 1024px) {
+    .img-container {
+      width: 30%;
     }
-
-    @media (max-width: 1024px) {
-        .img-container {
-            width: 30%;
-        }
-    }
-    
+  }
 }

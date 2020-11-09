@@ -170,59 +170,7 @@
     }
   }
 
-  // svg {
-
-  //   width: 100%;
-  //   height: 100%;
-  //   transition: stroke ease-in .4s ;
-  // }
-  // text-align: inline-start;
-
-  // .opening {
-  //     color: $clr3;
-  // }
-  // .name {
-  //     color: $clr4;
-  //     font-size: 65px;
-  // }
-  // h1 {
-  //     font-size: 60px;
-  // }
-  // .sentence {
-  //     padding: 50px 0;
-  // }
-
-  //     .card1,
-  // .card2,
-  // .card3,
-  // .card4 {
-  //   position: absolute;
-
-  //   background-position: center center;
-  //   background-repeat: no-repeat;
-  //   will-change: transform;
-  // }
-
-  //     .card2 {
-  //     background-size: contain;
-  //     width: 100%;
-  //     height: 100%;
-  //     background: url(../../assets/1st/stars.svg) no-repeat center center;
-  //     }
-
-  //     .card3 {
-  //         width: 100%;
-  //       height: 100%;
-  //         background-size: contain;
-  //     background: url(../../assets/1st/man.svg) no-repeat top left;
-  //     }
-
-  // .card4 {
-  //     width: 100%;
-  //     height: 100%;
-  //       background-size: contain;
-  //   background: url(../../assets/1st/moon.svg) no-repeat top left;
-  // }
+ 
 
   @include for-narrow-layout {
     position: inherit;

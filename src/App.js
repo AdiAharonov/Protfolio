@@ -2,13 +2,11 @@ import React, {useState, useEffect} from 'react';
 import { NavBar } from './cmps/NavBar';
 import { LandingPage } from './cmps/LandingPage';
 import { Social } from './cmps/Social';
-import { Mail } from './cmps/Mail';
 import { About } from './cmps/About';
 import { Skills } from './cmps/Skills';
 import { Work } from './cmps/Work';
 import { Contact } from './cmps/Contact';
-import { Footer } from './cmps/Footer';
-import { CircuitAnimationCmp } from './cmps/StyledCmps/CircuitAnimationCmp';
+
 import { SpaceBgSvg } from './cmps/StyledCmps/SpaceBgSvg';
 
 
@@ -39,10 +37,7 @@ function App() {
      <Work mode={mode}/>
      <Contact mode={mode}/>
      <Social mode={mode}/>
-     {/* <Mail /> */}
-
-     
-     {/* <Footer /> */}
+   
      
 
     </div>
