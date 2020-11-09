@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Logo from '../assets/images/logo.svg';
-import * as Scroll from 'react-scroll';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 export const NavBar = () => {
@@ -17,7 +16,7 @@ export const NavBar = () => {
         setCurrentScrollHeight(newScrollHeight);
       }
     };
-  }, []);
+  }, [currentScrollHeight]);
 
   const opacity = Math.min(currentScrollHeight / 100, 1);
   const navBgc = `rgb(9, 22, 41,${opacity})`;

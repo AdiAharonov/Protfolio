@@ -1,8 +1,8 @@
 {
-  "name": "react-protfolio",
+  "name": "adi-aharonov",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://adiaharonov.github.io/ReactProtfolio/",
+  "homepage": "https://adiaharonov.com/",
   "dependencies": {
     "@n8tb1t/use-scroll-position": "^1.0.47",
     "@testing-library/jest-dom": "^4.2.4",

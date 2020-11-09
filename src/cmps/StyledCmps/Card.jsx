@@ -13,7 +13,7 @@ export const Card = ({gif, alt, header, content, tech, reg, src, mode}) => {
     <p>{content}</p>
     </div>
     <div className="tech">
-    {tech.map(item => <h4 style={mode ? {color: " #E9B9FF"} : {color: "#650d9f"}}>- {item} -</h4>)}
+    {tech.map((item, idx) => <h4 key={idx} style={mode ? {color: " #E9B9FF"} : {color: "#650d9f"}}>- {item} -</h4>)}
     </div>
     
         </div>
