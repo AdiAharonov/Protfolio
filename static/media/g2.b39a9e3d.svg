@@ -1,0 +1,14 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 2">
+<circle id="Ellipse 3" cx="132" cy="80" r="50" opacity="0.7" stroke="none" fill="#E9B9FF"/>
+<g id="computer">
+<path id="Vector 1" d="M39 128.329V60H161V128.329H39Z" stroke="current" fill="none" stroke-width="8" stroke-linejoin="round"/>
+<path id="Vector 2" d="M110.167 145.242V132.388H87.9506V145.242H110.167Z" fill="current" stroke="current" stroke-width="8"/>
+<path id="Vector 3" d="M66.8642 151.5H130.5" stroke="current" fill="none" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="pen">
+<path id="Vector 8" d="M76.1932 98.9089C78.8787 91.6755 85.944 87.9637 89.141 87.0119L95.8546 94.1501C95.6948 95.7364 94.1283 100.337 89.141 106.047C84.1537 111.758 73.6356 111.282 69 110.33C72.0691 108.807 72.8364 108.426 73.7955 106.999C74.7546 105.571 75.7137 100.337 76.1932 98.9089Z" fill="current"/>
+<path id="Vector 9" d="M151.962 34.4313L96.8137 92.9642L90.1001 86.3019L149.564 32.0519C151.866 31.6712 152.121 33.4795 151.962 34.4313Z" fill="current"/>
+</g>
+</g>
+</svg>
