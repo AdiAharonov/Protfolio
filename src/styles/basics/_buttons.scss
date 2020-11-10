@@ -1,214 +1,126 @@
 .navbar-btn {
-    background: none;
-    border: none;
-    font-family: clean;
-    cursor: pointer;
-    font-size: rem(22px);
-    font-weight: 600;
-    outline: none;
-    transition: all ease-out .7s;
-    outline: none;
-    margin: auto 0;
-
-   
+  background: none;
+  border: none;
+  font-family: clean;
+  cursor: pointer;
+  font-size: rem(22px);
+  font-weight: 600;
+  outline: none;
+  transition: all ease-out 0.7s;
+  outline: none;
+  margin: auto 0;
 }
 
-.resume-btn  {
-    font-size: rem(24px);
-    text-decoration: none;
-    font-family: clean;
-    font-weight: 600;
-    color: #fff;
-    padding: 5px;
+.resume-btn {
+  font-size: rem(24px);
+  text-decoration: none;
+  font-family: clean;
+  font-weight: 600;
+  color: #fff;
+  padding: 5px;
 }
 
-
- 
 .main-page-btn {
-    font-family: clean;
-    font-weight: bold;
-    background: none;
-    border: none;
-    z-index: 9999;
-   width: auto;
-    font-size: rem(22px);
-    
-    outline: none;
-    cursor: pointer;
-    
-}
+  font-family: clean;
+  font-weight: bold;
+  background: none;
+  border: none;
+  z-index: 9999;
+  width: auto;
+  font-size: rem(22px);
 
+  outline: none;
+  cursor: pointer;
+}
 
 .toggle-btn {
-    width: 100%;
-    padding: rem(10px);
+  width: 100%;
+  padding: rem(10px);
+  position: relative;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .btn {
     position: relative;
-    z-index: 9999;
+    height: 40px;
+    width: 100px;
+    overflow: hidden;
+    z-index: -5;
+    border-radius: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
-   
 
-    .btn {
-       position: relative;
-        height: 40px;
-        width: 100px;
-        overflow: hidden;
-        z-index: -5;
-        border-radius: 20px;
-        display: flex;
-        align-items: center;
-        
-        @media (max-width: 600px) {
-            position: absolute;
-            bottom: -150%;
-            }
-        
-        &.light {
-            background-color: transparentize($main, 0.8);
-        }
-        &.dark {
-            background-color: transparentize($main, 0.8);
-        }
-        .inside-circle {
-            border-radius: 50%;
-            border: #fff solid 4px;
-            transition: .4s;
-            width: 35px;
-            height: 85%;
-            background-color: transparentize($main, 0.8);
-            
-            
-            &.left-side {
-                
-            }
-            
-            &.right-side {
-               transform: translateX(58px);
-               border:  rgb(170, 126, 212) solid 4px;
+    @media (max-width: 600px) {
+      position: absolute;
+      bottom: -150%;
+    }
 
-            }
-        }
+    &.light {
+      background-color: transparentize($main, 0.8);
+    }
+    &.dark {
+      background-color: transparentize($main, 0.8);
+    }
+    .inside-circle {
+      border-radius: 50%;
+      border: #fff solid 4px;
+      transition: 0.4s;
+      width: 35px;
+      height: 85%;
+      background-color: transparentize($main, 0.8);
+
+      &.left-side {
       }
-      
-    
-      .clean-option ,.space-option {
-        width: 35%;
-        h4 {
-            margin: 0;
-            font-size: rem(22px);
-           
-            
-        }
-       
-        .space {
-            color: $main;
-        }
-    }
-    
-    //     &.light {
-        
-        //         .clean-option:hover,.space-option:hover {
-            //           .border {
-                //             .right {
-                    //                 height: 1px;
-                    //                 animation: drawRight 2s;
-                    //                 // border-bottom: solid 1px $dark-bg;
-//                 width: 50%;
-//             }
-//             .left {
-    //                 height: 1px;
-//                 animation: drawLeft 2s;
-//                 // border-bottom: solid 1px $dark-bg;
-//                 width: 50%;
-//             }
-//           }  
-//         }
 
-//         .space-option:hover {
-    //             .border {
-        //                 .right {
-            //                     border-bottom: solid 1px $main;
-            //             }
-            //         }
-            //     }
-            //         .clean-option:hover {
-                //             .border {
-                    //                 .right {
-                        //                     border-bottom: solid 1px $dark-bg;
-                        //             }
-                        //         }
-                        //         }
-// }
-// &.dark {
-    //     .clean-option:hover,.space-option:hover {
-        //         .border {
-    //           .right {
-        //               height: 1px;
-        //               animation: drawRight 2s;
-        //               // border-bottom: solid 1px $dark-bg;
-    //               width: 50%;
-    //           }
-    //           .left {
-        //               height: 1px;
-    //               animation: drawLeft 2s;
-    //               // border-bottom: solid 1px $dark-bg;
-    //               width: 50%;
-    //           }
-    //         }  
-    //       }
-    
-    //       .space-option:hover {
-        //           .border {
-            //               .right {
-                //                   border-bottom: solid 1px $main;
-                //           }
-                //       }
-                //   }
-                //       .clean-option:hover {
-                    //           .border {
-                        //               .right {
-                            //                   border-bottom: solid 1px $light-bg;
-                            //           }
-                            //       }
-                            //       }
-                            // }
+      &.right-side {
+        transform: translateX(58px);
+        border: rgb(170, 126, 212) solid 4px;
+      }
+    }
+  }
 
-                            span {
-                                position: absolute;
-                                
-       
-                                margin: auto 0;
-                                cursor: pointer;
-        
-                            }
-    .light {
-        color: $light-bg;
+  .clean-option,
+  .space-option {
+    width: 35%;
+    h4 {
+      margin: 0;
+      font-size: rem(22px);
     }
-    .dark {
-        
-        color: $dark-bg;
+
+    .space {
+      color: $main;
     }
+  }
+
+  span {
+    position: absolute;
+
+    margin: auto 0;
+    cursor: pointer;
+  }
+  .light {
+    color: $light-bg;
+  }
+  .dark {
+    color: $dark-bg;
+  }
 }
 
 @keyframes drawRight {
-    from {
-        width: 0;
-        
-    }
-    to {
-        width: 50%;
-        
-    }
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
 }
 @keyframes drawLeft {
-    from {
-        width: 0;
-        
-    }
-    to {
-        width: -50%;
-        
-    }
+  from {
+    width: 0;
+  }
+  to {
+    width: -50%;
+  }
 }
-

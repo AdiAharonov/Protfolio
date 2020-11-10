@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavBar } from './cmps/NavBar';
 import { LandingPage } from './cmps/LandingPage';
 import { Social } from './cmps/Social';
@@ -10,43 +10,43 @@ import { LocalStorageService } from './services/localStorageService';
 
 import { SpaceBgSvg } from './cmps/StyledCmps/SpaceBgSvg';
 
-
 function App() {
   const [mode, setMode] = useState(false);
-  const [bgAnimation, setBgAnimation] = useState(0)
+  const [bgAnimation, setBgAnimation] = useState(0);
 
   useEffect(() => {
-   const currMode = LocalStorageService.getMode();
-   console.log(currMode)
-    currMode === "true" ? setMode(currMode) : setMode(false);
+    const currMode = LocalStorageService.getMode();
+    console.log(currMode);
+    currMode === 'true' ? setMode(currMode) : setMode(false);
   }, []);
 
   useEffect(() => {
     if (mode) {
-      setTimeout(() => setBgAnimation(100), 800)
+      setTimeout(() => setBgAnimation(100), 800);
     } else {
-      setTimeout(() => setBgAnimation(0), 10)
+      setTimeout(() => setBgAnimation(0), 10);
     }
-
-  }, [mode])
+  }, [mode]);
 
   return (
-    <div className={mode ? "home-page dark" : "home-page light"} >
-     <NavBar />
+    <div className={mode ? 'home-page dark' : 'home-page light'}>
+      <NavBar />
 
-     
-    
-    {mode && <div className="space-bg" style={{opacity: bgAnimation, transition: "opacity 0.6s ease-in"}}><SpaceBgSvg /></div>} 
-    
-     <LandingPage setMode={setMode} mode={mode}/>
-     <About mode={mode}/>
-     <Skills mode={mode}/>
-     <Work mode={mode}/>
-     <Contact mode={mode}/>
-     <Social mode={mode}/>
-   
-     
+      {mode && (
+        <div
+          className="space-bg"
+          style={{ opacity: bgAnimation, transition: 'opacity 0.6s ease-in' }}
+        >
+          <SpaceBgSvg />
+        </div>
+      )}
 
+      <LandingPage setMode={setMode} mode={mode} />
+      <About mode={mode} />
+      <Skills mode={mode} />
+      <Work mode={mode} />
+      <Contact mode={mode} />
+      <Social mode={mode} />
     </div>
   );
 }
