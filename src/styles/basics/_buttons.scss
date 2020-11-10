@@ -42,118 +42,148 @@
 .toggle-btn {
     width: 100%;
     padding: rem(10px);
-    
-    
-    overflow: hidden;
-    display: flex;
+    position: relative;
     z-index: 9999;
+    display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+   
 
-    
-    .clean-option ,.space-option {
-        width: 50%;
+    .btn {
+       position: relative;
+        height: 40px;
+        width: 100px;
+        overflow: hidden;
+        z-index: -5;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
         
+        @media (max-width: 600px) {
+            position: absolute;
+            bottom: -150%;
+            }
+        
+        &.light {
+            background-color: transparentize($main, 0.8);
+        }
+        &.dark {
+            background-color: transparentize($main, 0.8);
+        }
+        .inside-circle {
+            border-radius: 50%;
+            border: #fff solid 4px;
+            transition: .4s;
+            width: 35px;
+            height: 85%;
+            background-color: transparentize($main, 0.8);
+            
+            
+            &.left-side {
+                
+            }
+            
+            &.right-side {
+               transform: translateX(58px);
+               border:  rgb(170, 126, 212) solid 4px;
 
+            }
+        }
+      }
+      
+    
+      .clean-option ,.space-option {
+        width: 35%;
         h4 {
             margin: 0;
-            cursor: pointer;
-            font-size: rem(24px);
+            font-size: rem(22px);
+           
             
         }
-
-        .border {
-            width: 100%;
-            height: 1px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+       
         .space {
             color: $main;
         }
     }
-
-    &.light {
-       
-        .clean-option:hover,.space-option:hover {
-          .border {
-            .right {
-                height: 1px;
-                animation: drawRight 2s;
-                // border-bottom: solid 1px $dark-bg;
-                width: 50%;
-            }
-            .left {
-                height: 1px;
-                animation: drawLeft 2s;
-                // border-bottom: solid 1px $dark-bg;
-                width: 50%;
-            }
-          }  
-        }
-
-        .space-option:hover {
-            .border {
-                .right {
-                    border-bottom: solid 1px $main;
-            }
-        }
-    }
-        .clean-option:hover {
-            .border {
-                .right {
-                    border-bottom: solid 1px $dark-bg;
-            }
-        }
-        }
-}
-    &.dark {
-        .clean-option:hover,.space-option:hover {
-            .border {
-              .right {
-                  height: 1px;
-                  animation: drawRight 2s;
-                  // border-bottom: solid 1px $dark-bg;
-                  width: 50%;
-              }
-              .left {
-                  height: 1px;
-                  animation: drawLeft 2s;
-                  // border-bottom: solid 1px $dark-bg;
-                  width: 50%;
-              }
-            }  
-          }
-  
-          .space-option:hover {
-              .border {
-                  .right {
-                      border-bottom: solid 1px $main;
-              }
-          }
-      }
-          .clean-option:hover {
-              .border {
-                  .right {
-                      border-bottom: solid 1px $light-bg;
-              }
-          }
-          }
-    }
-
-    span {
-        position: absolute;
+    
+    //     &.light {
         
+        //         .clean-option:hover,.space-option:hover {
+            //           .border {
+                //             .right {
+                    //                 height: 1px;
+                    //                 animation: drawRight 2s;
+                    //                 // border-bottom: solid 1px $dark-bg;
+//                 width: 50%;
+//             }
+//             .left {
+    //                 height: 1px;
+//                 animation: drawLeft 2s;
+//                 // border-bottom: solid 1px $dark-bg;
+//                 width: 50%;
+//             }
+//           }  
+//         }
+
+//         .space-option:hover {
+    //             .border {
+        //                 .right {
+            //                     border-bottom: solid 1px $main;
+            //             }
+            //         }
+            //     }
+            //         .clean-option:hover {
+                //             .border {
+                    //                 .right {
+                        //                     border-bottom: solid 1px $dark-bg;
+                        //             }
+                        //         }
+                        //         }
+// }
+// &.dark {
+    //     .clean-option:hover,.space-option:hover {
+        //         .border {
+    //           .right {
+        //               height: 1px;
+        //               animation: drawRight 2s;
+        //               // border-bottom: solid 1px $dark-bg;
+    //               width: 50%;
+    //           }
+    //           .left {
+        //               height: 1px;
+    //               animation: drawLeft 2s;
+    //               // border-bottom: solid 1px $dark-bg;
+    //               width: 50%;
+    //           }
+    //         }  
+    //       }
+    
+    //       .space-option:hover {
+        //           .border {
+            //               .right {
+                //                   border-bottom: solid 1px $main;
+                //           }
+                //       }
+                //   }
+                //       .clean-option:hover {
+                    //           .border {
+                        //               .right {
+                            //                   border-bottom: solid 1px $light-bg;
+                            //           }
+                            //       }
+                            //       }
+                            // }
+
+                            span {
+                                position: absolute;
+                                
        
-        margin: auto 0;
-        cursor: pointer;
+                                margin: auto 0;
+                                cursor: pointer;
         
-    }
+                            }
     .light {
-        
         color: $light-bg;
-        
     }
     .dark {
         
@@ -181,3 +211,4 @@
         
     }
 }
+

@@ -6,6 +6,7 @@ import { About } from './cmps/About';
 import { Skills } from './cmps/Skills';
 import { Work } from './cmps/Work';
 import { Contact } from './cmps/Contact';
+import { LocalStorageService } from './services/localStorageService';
 
 import { SpaceBgSvg } from './cmps/StyledCmps/SpaceBgSvg';
 
@@ -13,6 +14,12 @@ import { SpaceBgSvg } from './cmps/StyledCmps/SpaceBgSvg';
 function App() {
   const [mode, setMode] = useState(false);
   const [bgAnimation, setBgAnimation] = useState(0)
+
+  useEffect(() => {
+   const currMode = LocalStorageService.getMode();
+   console.log(currMode)
+    currMode === "true" ? setMode(currMode) : setMode(false);
+  }, []);
 
   useEffect(() => {
     if (mode) {
