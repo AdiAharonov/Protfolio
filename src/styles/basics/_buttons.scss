@@ -70,7 +70,10 @@
       width: 35px;
       height: 85%;
       background-color: transparentize($main, 0.8);
-
+      animation: shake ;
+      animation-duration: 6s;
+      animation-iteration-count: 1;
+      
       &.left-side {
       }
 
@@ -108,19 +111,15 @@
   }
 }
 
-@keyframes drawRight {
-  from {
-    width: 0;
-  }
-  to {
-    width: 50%;
-  }
-}
-@keyframes drawLeft {
-  from {
-    width: 0;
-  }
-  to {
-    width: -50%;
-  }
+
+@keyframes shake {
+  0% { transform:translate(0,0) }
+  90% { transform:translate(0,0) }
+  91.78571% { transform:translate(5px,0) }
+  93.57143% { transform:translate(0,0) }
+  95.35714% { transform:translate(5px,0) }
+  97.14286% { transform:translate(0,0) }
+  98.92857% { transform:translate(5px,0) }
+  99.71429% { transform:translate(0,0) }
+  100% { transform:translate(0,0) }
 }
