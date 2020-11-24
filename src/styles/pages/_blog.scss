@@ -1,0 +1,66 @@
+.blog {
+    width: 100%;
+    height: 100vh;
+    border-left: $main solid 1px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-around;
+
+    h1 {
+        font-size: 42px;
+        color: $main;
+    }
+    h2 {
+                font-size: 20px;
+                color: lighten($main, 15);
+    }
+
+
+    .blog-posts {
+        width: 90%;
+        margin: 50px auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+
+        a {
+            text-decoration: none;
+            font-size: rem(20px);
+            color: #000;
+            transition: color ease-in .3s;
+        }
+        a:hover {
+            color: lighten($main, 20);
+        }
+    }
+
+    .to-site-link {
+        font-size: rem(22px);
+        font-weight: 600;
+        color: $main;
+        width: 90%;
+        text-align: start; 
+        margin: 0 auto;       
+
+        a {
+            text-decoration: none;
+        }
+    }
+    
+
+    footer {
+        background-color: $main;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 8vh;
+        width: 100%;   
+        
+        font-size: rem(20px);
+        font-weight: 600;
+        color: #fff;
+    }
+}

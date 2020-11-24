@@ -16,7 +16,6 @@ function App() {
 
   useEffect(() => {
     const currMode = LocalStorageService.getMode();
-    console.log(currMode);
     currMode === 'true' ? setMode(currMode) : setMode(false);
   }, []);
 
