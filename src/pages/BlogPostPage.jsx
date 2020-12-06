@@ -15,7 +15,7 @@ export const BlogPostPage = () => {
     return (
         <div className="blog-post-page">
             {post && <h1>{post.header}</h1>}
-    {post.paragraphArr && post.paragraphArr.map((p, idx) => <p key={idx}>{p}</p>)}
+    {post.paragraphArr && post.paragraphArr.map((p, idx) => p.type === 'h' ? <h2 key={idx}>{p.content}</h2> : <p key={idx}>{p.content}</p>)}
         </div>
     )
 }

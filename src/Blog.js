@@ -14,10 +14,12 @@ export const Blog = () => {
     },[])
 
 
+
     return (
         <div className="blog">
             <div className="blog-header">
-            <h1>Mind Your Code </h1>
+            <h1>CODING</h1>
+            <h1>INFLUENCER</h1>
             <h2>Web Development Blog</h2>
             </div>
 
@@ -29,6 +31,7 @@ export const Blog = () => {
             )}
             
             </div>}
+
 
             <span className="to-site-link"><Link to="/">Check My Site</Link></span>
 

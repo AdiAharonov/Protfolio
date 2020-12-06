@@ -4,14 +4,19 @@
     margin: 20px auto;
     display: flex;
     flex-direction: column;
-
+    
     h1 {
         font-size: rem(42px);
         color: $main;
     }
 
+    h2 {
+        text-align: start;
+    }
+    
     p {
         text-align: start;
+        
         
     }
 }

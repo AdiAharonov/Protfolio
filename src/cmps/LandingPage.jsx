@@ -17,15 +17,19 @@ export function LandingPage({ setMode, mode }) {
   const [content, setContent] = useState(0);
   const [sentence, setSentence] = useState(0);
   const [animations, setAnimations] = useState(0);
+ 
+
 
   useEffect(() => {
     if (window.innerWidth > 1024) {
       window.scrollTo(window.innerWidth, window.innerHeight);
     }
-    setTimeout(() => setHeader(100), 1000);
-    setTimeout(() => setSubHeader(100), 2500);
-    setTimeout(() => setContent(100), 3500);
-    setTimeout(() => setSentence(100), 4500);
+    setTimeout(() => setHeader(100), 1500);
+    setTimeout(() => setSubHeader(100), 1500);
+    setTimeout(() => setContent(100), 3000);
+    setTimeout(() => setSentence(100), 4000);
+    
+    setTimeout(() => entryAnimation(), 5000);
   }, []);
 
   useEffect(() => {
@@ -35,6 +39,15 @@ export function LandingPage({ setMode, mode }) {
       setTimeout(() => setAnimations(0), 10);
     }
   }, [mode]);
+
+  // Entry animation
+
+  const entryAnimation = () => {
+    if (!mode) {
+      setMode(true)
+      setTimeout(() => setMode(false), 1500);
+    }
+  }
 
   // paralax effect
 
@@ -54,7 +67,7 @@ export function LandingPage({ setMode, mode }) {
         >
           Hello, my name is <span>Adi Aharonov.</span>
         </h2>
-        <h3 style={{ opacity: subHeader, transition: 'opacity 0.6s ease-in' }}>
+        <h3  className="name" style={{ opacity: subHeader, transition: 'opacity 0.6s ease-in' }}>
           Front-end web developer.
         </h3>
         <p
