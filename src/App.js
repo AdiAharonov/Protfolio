@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useLayoutEffect } from 'react';
 import { NavBar } from './cmps/NavBar';
 import { LandingPage } from './cmps/LandingPage';
 import { Social } from './cmps/Social';
@@ -16,6 +16,11 @@ function App() {
   const [preload, setPreload] = useState(true);
   const [entryAnimationIsReady, setEntryAnimation] = useState(false);
 
+// Disable Scroll
+
+  useLockBodyScroll()
+
+
   useEffect(() => {
     const currMode = LocalStorageService.getMode();
     currMode === 'true' ? setMode(true) : setMode(false);
@@ -23,10 +28,11 @@ function App() {
     
     const timer = setTimeout(() => {
       setPreload(false)
-    }, 1500);
+    }, 2000);
     return () => clearTimeout(timer);
 
   }, []);
+
 
   useEffect(() => {
     if (mode) {
@@ -73,3 +79,19 @@ function App() {
 }
 
 export default App;
+
+
+
+// Hook
+const useLockBodyScroll = () => {
+  useLayoutEffect(() => {
+   // Get original body overflow
+   const originalStyle = window.getComputedStyle(document.body).overflow;  
+   // Prevent scrolling on mount
+   if (window.innerWidth > 1024) {
+    document.body.style.overflow = 'hidden';
+  }
+   // Re-enable scrolling when component unmounts
+   return () => document.body.style.overflow = originalStyle;
+   }, []); // Empty array ensures effect is only run on mount and unmount
+}

@@ -1,0 +1,672 @@
+[
+    {
+        "header": "JavaScript Job Interview (Junior)",
+        "img": "https://www.newhavenbiz.com/sites/default/files/2019-10/jobinterview.jpg",
+        "contentArr": [
+            {
+                "type": "p",
+                "content": "The purpose of this article is to help and advise junior web developers in the process of finding their first job."
+            },
+            {
+                "type": "p",
+                "content": "So you're a highly motivated new web developer ready to get your first opportunity in a real-world job. Maybe you just finished a coding boot camp of some sort or even learned all by yourself through the power of the internet (If that's the case I would recommend looking into Maximilian's course at udemy.com). Either way, you feel ready to land your first web developing position. So in this article, I'll do my best to help you get your first job, From outputting your resume among others to being ready to pass the job interview."
+            },
+            {
+                "type": "p",
+                "content": "So here are the things I've learned so far: "
+            },
+            {
+                "type": "h",
+                "content": "1) Getting real experience."
+            },
+            {
+                "type": "p",
+                "content": "After getting rejected by many companies and opportunities without even getting to the interview stage, I've contacted some of the recruiter's in my connections at LinkedIn (we'll talk about building your LinkedIn page later, but here's a good example of why you need it.), And asked them what's the reason I'm being rejected all the time and the majority of them said it's ``The lack of real experience``. "
+            },
+            {
+                "type": "p",
+                "content": "When they write in the job post at the requirements section number of experience years (For example 1-2 years of experience) they mean in a real product. One that's being used by real users and shows how you collaborate with other people in a real team."
+            },
+            {
+                "type": "p",
+                "content": "There are few options to fill these gap:"
+            },
+            {
+                "type": "h2",
+                "content": "1. Contribute To Open Source."
+            },
+            {
+                "type": "p",
+                "content": " The best and most professional way to overcome these is by contributing to open-source projects."
+            },
+            {
+                "type": "link",
+                "content": "More info about open-source can be found here.",
+                "source": "http://localhost:3000/blog/open-source"
+            },
+            {
+                "type": "h2",
+                "content": "2. Create An Open Source."
+            },
+            {
+                "type": "p",
+                "content": "A bit harder way but can become a better solution is by creating your new tool or idea. Your chances of innovating not very high but they are never zero, So if you are passionate about creating something new I'd say go for it."
+            },
+            {
+                "type": "h2",
+                "content": "3. Working For Free."
+            },
+            {
+                "type": "p",
+                "content": "And the most beneficial way I can suggest is by contributing to a small company or business. I recommend reaching a charity you like or maybe a struggling small business in your town and help them with your set of skills. After that, you can add it to your resume and it counts as experience (besides it always feels great to give back to the community)."
+            },
+            {
+                "type": "h",
+                "content": "2) Publishing yourself & mingling."
+            },
+            {
+                "type": "p",
+                "content": "Research indicates that most job seekers find employment through their network of family and social connections. It's not a crime and it even makes sense, after all, if you have a company and a good employee recommends someone for a position it will be highly valued. So you have to understand that you need to get exposure, and as much as you can."
+            },
+            {
+                "type": "p",
+                "content": "You can do it by:"
+            },
+            {
+                "type": "p",
+                "content": "Creating a LinkedIn page and add all the people and companies you think are relevant to your desired position."
+            },
+            {
+                "type": "p",
+                "content": " Search and join communities that relevant to you, it can be on Facebook, GitHub, LinkedIn, and any other place you can get to know new people that may help you."
+            },
+            {
+                "type": "p",
+                "content": "Share your work and learn from others, don't be afraid to be seen and comment on every post you think you can contribute to the conversation."
+            },
+            {
+                "type": "p",
+                "content": "Signup for meetups in your communities, there are plenty of free online meetups you can join and learn from professionals in the industry."
+            },
+            {
+                "type": "h",
+                "content": "3) Getting ready for the interview."
+            },
+            {
+                "type": "p",
+                "content": "When you finally get the chance and get summoned to an interview you have to be ready!"
+            },
+            {
+                "type": "p",
+                "content": "Research about the company:"
+            },
+            {
+                "type": "h2",
+                "content": "What technologies do they use?"
+            },
+            {
+                "type": "h2",
+                "content": "What is the product of the company?"
+            },
+            {
+                "type": "h2",
+                "content": "Is it a good place for you or your future? (maybe you should not work there)"
+            },
+            {
+                "type": "h2",
+                "content": "What can you bring to the table (what can you do for them)?"
+            },
+            {
+                "type": "p",
+                "content": "Write down a short and well-written description about yourself and your experience, practice saying it out loud."
+            },
+            {
+                "type": "p",
+                "content": "And of course, you have to know the basic js interview questions, they will appear in many interviews so you need to feel comfortable with them. "
+            },
+            {
+                "type": "p",
+                "content": "I recommend this online course:"
+            },
+            {
+                "type": "link",
+                "content": "https://www.udemy.com/course/ultimate-javascript-interview-course/",
+                "source": "https://www.udemy.com/course/ultimate-javascript-interview-course/"
+            },
+            {
+                "type": "p",
+                "content": "Master this knowledge and you can pass every interview, even for a senior position."
+            },
+            {
+                "type": "p",
+                "content": "If you have done everything right so far the only thing that's left is time. Even if it takes some time remember almost everyone went through this even me right now."
+            },
+            {
+                "type": "p",
+                "content": "Hope you enjoyed and learned something new, for more articles about web development you can go here: "
+            },
+            {
+                "type": "p",
+                "content": "Hope you enjoyed and learned something new, for more articles about web development you can go here"
+            },
+            {
+                "type": "link",
+                "content": "adiaharonov.com",
+                "source": "http://adiaharonov.com/"
+            }
+        ],
+        "url": "js-job-interview"
+    },
+    {
+        "header": "Web Application Testing",
+        "img": "https://3fxtqy18kygf3on3bu39kh93-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/Top-JavaScript-Testing-Frameworks-Featured.png",
+        "contentArr": [
+            {
+                "type": "p",
+                "content": "The purpose of this article is to explain the importance of testing your code and to examine an example with a popular testing library (Jest)."
+            },
+            {
+                "type": "p",
+                "content": "We'll start with the big question: "
+            },
+            {
+                "type": "h",
+                "content": "Why should I know about testing?"
+            },
+            {
+                "type": "p",
+                "content": "More and more web applications are being developed these days. And with each line of code being written, the potential for bugs arises. Generally speaking, the costs of fixing bugs increase exponentially the later you find them. The Systems Sciences Institute at IBM found that “the cost to fix an error found after product release was 4 to 5 times more than one uncovered during design, and up to 100 times more than one identified in the maintenance phase”."
+            },
+            {
+                "type": "p",
+                "content": "These numbers highlight the importance of finding bugs as early as possible and thoroughly test an application before it is released."
+            },
+            {
+                "type": "p",
+                "content": "If that didn't convince you you should know it also makes your code more readable and grants better control over it."
+            },
+            {
+                "type": "p",
+                "content": "And a great skill to show in your resume."
+            },
+            {
+                "type": "h",
+                "content": "How can I start testing my code?"
+            },
+            {
+                "type": "p",
+                "content": "Let's demonstrate with a basic javascript testing library that's called jest (for more info you can go to https://jestjs.io/)."
+            },
+            {
+                "type": "p",
+                "content": "Our Math2 file"
+            },
+            {
+                "type": "file-source",
+                "content": "/testing-example/Math2.js"
+            },
+            {
+                "type": "code-block",
+                "content": "const Math2 = { "
+            },
+            {
+                "type": "code-block",
+                "content": " "
+            },
+            {
+                "type": "code-block",
+                "content": "}"
+            },
+            {
+                "type": "code-block",
+                "content": "module.exports = Math2;"
+            },
+            {
+                "type": "p",
+                "content": "Now let's create some basic functionality:"
+            },
+            {
+                "type": "code-block",
+                "content": "const Math2 = {"
+            },
+            {
+                "type": "code-block",
+                "content": "pow: function (base, exponent) {"
+            },
+            {
+                "type": "code-block",
+                "content": "return base ** exponent;"
+            },
+            {
+                "type": "code-block",
+                "content": " },"
+            },
+            {
+                "type": "code-block",
+                "content": "sum: function (a, b) {"
+            },
+            {
+                "type": "code-block",
+                "content": " return a + b;"
+            },
+            {
+                "type": "code-block",
+                "content": "}"
+            },
+            {
+                "type": "code-block",
+                "content": " "
+            },
+            {
+                "type": "code-block",
+                "content": "};"
+            },
+            {
+                "type": "code-block",
+                "content": " "
+            },
+            {
+                "type": "code-block",
+                "content": "module.exports = Math2; "
+            },
+            {
+                "type": "p",
+                "content": "We created 2 math functions:"
+            },
+            {
+                "type": "p",
+                "content": "pow function that takes a base number and exponent number and returns the power of them, sum function that takes 2 integers and returns the sum of them."
+            },
+            {
+                "type": "p",
+                "content": "Now we'll create a new testing file like this: "
+            },
+            {
+                "type": "file-source",
+                "content": "/testing-example/Math2.test.js"
+            },
+            {
+                "type": "p",
+                "content": "And begin our testing:"
+            },
+            {
+                "type": "p",
+                "content": "First, we get our math object:"
+            },
+            {
+                "type": "code-block",
+                "content": "const Math2 = require('./Math2');"
+            },
+            {
+                "type": "p",
+                "content": "Now we make our first test:"
+            },
+            {
+                "type": "code-block",
+                "content": "const Math2 = require('./Math2');"
+            },
+            {
+                "type": "code-block",
+                "content": " "
+            },
+            {
+                "type": "code-block",
+                "content": "test('Math2 pow function: returns the power of base and exponent',"
+            },
+            {
+                "type": "code-block",
+                "content": "() => {"
+            },
+            {
+                "type": "code-block",
+                "content": "expect(Math2.pow(2, 2)).toBe(4);"
+            },
+            {
+                "type": "code-block",
+                "content": "});"
+            },
+            {
+                "type": "p",
+                "content": "Let's break this down:"
+            },
+            {
+                "type": "code-block",
+                "content": "test('description of the test', () => {"
+            },
+            {
+                "type": "code-block",
+                "content": "expect(functionToTest(arguments)).toBe(expected out come);"
+            },
+            {
+                "type": "code-block",
+                "content": "};"
+            },
+            {
+                "type": "p",
+                "content": "Pretty simple right?"
+            },
+            {
+                "type": "p",
+                "content": "And if you run 'npm run test' you will get the results of the test:"
+            },
+            {
+                "type": "code-block",
+                "content": "PASS  ./Math2.test.js"
+            },
+            {
+                "type": "code-block",
+                "content": " √ Math2 pow function (3 ms)"
+            },
+            {
+                "type": "code-block",
+                "content": " "
+            },
+            {
+                "type": "code-block",
+                "content": "Test Suites: 1 passed, 1 total"
+            },
+            {
+                "type": "code-block",
+                "content": "Tests:       1 passed, 1 total"
+            },
+            {
+                "type": "code-block",
+                "content": "Snapshots:   0 total"
+            },
+            {
+                "type": "code-block",
+                "content": "Time:        4.578 s"
+            },
+            {
+                "type": "code-block",
+                "content": "Ran all test suites."
+            },
+            {
+                "type": "p",
+                "content": "Now in each test file, you can write as many tests as you want and cover as many extreme cases as you can."
+            },
+            {
+                "type": "code-block",
+                "content": "const Math2 = require('./Math2');"
+            },
+            {
+                "type": "code-block",
+                "content": " "
+            },
+            {
+                "type": "code-block",
+                "content": "test('Math2 pow function: 2 ** 2 = 4', () => {"
+            },
+            {
+                "type": "code-block",
+                "content": "expect(Math2.pow(2, 2)).toBe(4);"
+            },
+            {
+                "type": "code-block",
+                "content": "});"
+            },
+            {
+                "type": "code-block",
+                "content": " "
+            },
+            {
+                "type": "code-block",
+                "content": "test('Math2 sum function: 3 + 2 = 5', () => {"
+            },
+            {
+                "type": "code-block",
+                "content": "expect(Math2.sum(3, 2)).toBe(5);"
+            },
+            {
+                "type": "code-block",
+                "content": "});"
+            },
+            {
+                "type": "code-block",
+                "content": " "
+            },
+            {
+                "type": "code-block",
+                "content": "test('Math2 sum function, 3 + 3 != 5', () => {"
+            },
+            {
+                "type": "code-block",
+                "content": "expect(Math2.sum(3, 3)).toBe(5);"
+            },
+            {
+                "type": "code-block",
+                "content": "});"
+            },
+            {
+                "type": "p",
+                "content": "The first two tests should return true while the third one is false, so we expect the third test to fail."
+            },
+            {
+                "type": "p",
+                "content": "If we run the 'npm run test' command we get:"
+            },
+            {
+                "type": "code-block",
+                "content": "FAIL  ./Math2.test.js"
+            },
+            {
+                "type": "code-block",
+                "content": "√ Math2 pow function: 2 ** 2 = 4 (6 ms)"
+            },
+            {
+                "type": "code-block",
+                "content": " √ Math2 sum function: 3 + 2 = 5"
+            },
+            {
+                "type": "code-block",
+                "content": " × Math2 sum function, 3 + 3 != 5 (7 ms)"
+            },
+            {
+                "type": "p",
+                "content": "And that should be enough to help you understand this subject in general."
+            },
+            {
+                "type": "p",
+                "content": "For a deeper process of testing your web application you can address:"
+            },
+            {
+                "type": "link",
+                "content": "https://usersnap.com/blog/web-application-testing/",
+                "source": "https://usersnap.com/blog/web-application-testing/"
+            },
+            {
+                "type": "p",
+                "content": "Hope you enjoyed and learned something new, for more articles about web development you can go here"
+            },
+            {
+                "type": "link",
+                "content": "adiaharonov.com/blog",
+                "source": "http://adiaharonov.com/blog"
+            }
+        ],
+        "url": "testing"
+    },
+    {
+        "header": "Test Driven Development (TDD)",
+        "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--pKwOQlgl--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://cl.ly/1c8f2a178e91/Image%25202019-01-09%2520at%25206.09.44%2520PM.png",
+        "contentArr": [
+            {
+                "type": "p",
+                "content": "The purpose of this article is to help you understand the basic concepts of Test-Driven Development (TDD) in JavaScript."
+            },
+            {
+                "type": "h",
+                "content": "What is TDD?"
+            },
+            {
+                "type": "p",
+                "content": "Test Driven Development (TDD) is a software development approach in which test cases are developed to specify and validate what the code will do. In simple terms, test cases for each functionality are created and tested first and if the test fails then the new code is written in order to pass the test and make the code simple and bug-free."
+            },
+            {
+                "type": "h2",
+                "content": "1. Think about what your code is supposed to do."
+            },
+            {
+                "type": "h2",
+                "content": "2. Write the code to do it."
+            },
+            {
+                "type": "h2",
+                "content": "3. Test the code to see if it works."
+            },
+            {
+                "type": "h",
+                "content": "What is it good for?"
+            },
+            {
+                "type": "p",
+                "content": "The simple concept of TDD is to write and correct the failed tests before writing new code (before development). This helps to avoid duplication of code as we write a small amount of code at a time in order to pass tests."
+            },
+            {
+                "type": "p",
+                "content": "If you're new to this then this might be a little confusing but worry not, we will go over a basic example."
+            },
+            {
+                "type": "p",
+                "content": " let's say we want to write a function add(number1, number2) to add two numbers together. First, we write the add function, then we try a few examples to see if it gives the output we expect. We could try running add(1,1), add(5,7) and add(-4, 5), and we might get the outputs 2, 12, and... oops, there must be a bug somewhere, -9."
+            },
+            {
+                "type": "p",
+                "content": "We revise the code to try to fix the incorrect output, and then we run add(-4, 5) again. Maybe it will return 1, just like we wanted. Just to be safe, we'll run the other examples to see if they still give the right output. Oops, now add(5,7) returns -2. We'll go through a few cycles of this: we revise our code and then try a few examples until we're sufficiently confident that our code works just the way we want."
+            },
+            {
+                "type": "h",
+                "content": "Why do you need to know this?"
+            },
+            {
+                "type": "p",
+                "content": "Well, first of all, it's never wrong to learn a new concept."
+            },
+            {
+                "type": "p",
+                "content": "the second reason is that it's very popular among high-tech companies, If you're planning to work in big company chances are you will need to learn this so the sooner the better."
+            },
+            {
+                "type": "p",
+                "content": "And finally, it can give you major points in a job interview so I would recommend not underestimating it."
+            },
+            {
+                "type": "p",
+                "content": "For more information, you can visit here:"
+            },
+            {
+                "type": "link",
+                "content": "- www.pluralsight.com/guides/introduction-to-test-driven-development-in-javascript",
+                "source": "https://www.pluralsight.com/guides/introduction-to-test-driven-development-in-javascript"
+            },
+            {
+                "type": "link",
+                "content": "- www.guru99.com/test-driven-development.html",
+                "source": "https://www.guru99.com/test-driven-development.html"
+            },
+            {
+                "type": "p",
+                "content": "Hope you enjoyed and learned something new, for more articles about web development you can go here"
+            },
+            {
+                "type": "link",
+                "content": "adiaharonov.com/blog",
+                "source": "http://adiaharonov.com/blog"
+            }
+        ],
+        "url": "tdd"
+    },
+    {
+        "header": "Open Source - Beginners Guide",
+        "img": "https://miro.medium.com/max/1071/0*X_Znv597g9ZD3wFa.png",
+        "contentArr": [
+            {
+                "type": "p",
+                "content": "The purpose of this article is to help you understand the basic concepts of open-source software and how you can benefit from it."
+            },
+            {
+                "type": "p",
+                "content": "So let's start with the basics:"
+            },
+            {
+                "type": "h",
+                "content": "What is open-source software?"
+            },
+            {
+                "type": "p",
+                "content": "Open-source software is software with source code that anyone can inspect, modify, and enhance. 'Source code' is the part of the software that most computer users don't ever see. it's the code computer programmers can manipulate to change how a piece of software a 'program' or 'application' works. Programmers who have access to a computer program's source code can improve that program by adding features to it or fixing parts that don't always work correctly."
+            },
+            {
+                "type": "h",
+                "content": "Where can I find open-source projects?"
+            },
+            {
+                "type": "p",
+                "content": "The current largest place you can find an open-source project is at www.github.com."
+            },
+            {
+                "type": "p",
+                "content": "GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere."
+            },
+            {
+                "type": "p",
+                "content": "So most of the web development open-source projects (including React, Vue.js, Angular, Node.js, Express, and many more) can be found at GitHub. "
+            },
+            {
+                "type": "p",
+                "content": "And that leads to the most important part of the article:"
+            },
+            {
+                "type": "h",
+                "content": "How can I benefit from it?"
+            },
+            {
+                "type": "p",
+                "content": "Contributing to open source can be a rewarding way to learn, teach, and build experience in just about any skill you can imagine. Why do people contribute to open source? Plenty of reasons!"
+            },
+            {
+                "type": "h2",
+                "content": "- Improve software you rely on"
+            },
+            {
+                "type": "h2",
+                "content": "- Meet people who are interested in similar things"
+            },
+            {
+                "type": "h2",
+                "content": "- Find mentors and teach others"
+            },
+            {
+                "type": "h2",
+                "content": "- Build public artifacts that help you grow a reputation (and a career)"
+            },
+            {
+                "type": "h2",
+                "content": "- It’s empowering to be able to make changes, even small ones"
+            },
+            {
+                "type": "p",
+                "content": "For more examples and a deeper understanding of contribution you can address here: "
+            },
+            {
+                "type": "link",
+                "content": "opensource.guide/how-to-contribute",
+                "source": "https://opensource.guide/how-to-contribute/"
+            },
+            {
+                "type": "p",
+                "content": "At this point, you know what are open-source projects, where to search for them, and even how to start contributing and benefitting from them."
+            },
+            {
+                "type": "p",
+                "content": "Hope you enjoyed and learned something new, for more articles about web development you can go here"
+            },
+            {
+                "type": "link",
+                "content": "adiaharonov.com/blog",
+                "source": "http://adiaharonov.com/blog"
+            }
+        ],
+        "url": "open-source"
+    }
+]

@@ -1,0 +1,27 @@
+.carousel {
+    width: 90%;
+    height: 60%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    
+
+    div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    }
+
+    .left {   
+        transform: rotate(90deg);
+        cursor: pointer; 
+        fill:#91979ee1;  
+    }
+    .right {   
+        transform: rotate(-90deg);  
+        cursor: pointer;  
+        fill:#91979ed0; 
+    }
+
+}

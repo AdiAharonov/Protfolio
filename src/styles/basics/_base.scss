@@ -8,17 +8,12 @@ html {
     text-align: center;
     font-family: clean;
     scroll-behavior: smooth;
+
     
 }
 
 body {
     margin: 0;
-    overflow: hidden;
-
-    @include for-narrow-layout {
-
-        overflow: auto;
-    }
 }
 
 img {
