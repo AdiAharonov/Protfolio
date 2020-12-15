@@ -10,7 +10,6 @@ export const BlogPostLink = ({ post, pos }) => {
     return (
         <Link to={`/blog/${post.url}`} className={`post ${pos}`}> 
             <img src={post.img} alt=""/>
-            <h3>{post.header}</h3>
         </Link>
     )
 }
