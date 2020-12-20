@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react'
-import { BlogPostLink } from './cmps/BlogPost';
 import { Carousel } from './cmps/StyledCmps/Carousel';
 import { blogPostService } from './services/blogPostsService';
 import { Link } from 'react-router-dom'
@@ -25,18 +24,6 @@ export const Blog = () => {
             <BlogHeader />
             </div>
 
-
-
-            
-            {/* {posts && <div className="blog-posts">
-            {posts.map((post, idx) => 
-                     <BlogPostLink 
-                   post={post}
-                   key={idx}
-                   />
-                  
-)}         
-            </div>} */}
 
             {posts && <Carousel posts={posts}/>}
 

@@ -8,7 +8,7 @@ export const BlogPostPage = () => {
     const [post, setPost] = useState({})
 
     useEffect(() => {
-        const currPost = blogPostService.getPostByUrl(window.location.pathname.slice(6, window.location.pathname.length));
+        const currPost = blogPostService.getPostByUrl(window.location.hash.slice(7, window.location.hash.length));
         setPost(currPost);
     }, [])
 
