@@ -75,7 +75,7 @@ export const NavBar = () => {
           href="resume/CV.pdf"
           className="resume-btn"
         >
-          - Resume -
+          Resume
         </a>
       </div>
     </div>

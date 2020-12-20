@@ -3,9 +3,6 @@ import { Link } from 'react-router-dom'
 
 export const BlogPostLink = ({ post, pos }) => {
   
-    // useEffect(() => {
-    //     console.log(post)
-    // }, [])
 
     return (
         <Link to={`/blog/${post.url}`} className={`post ${pos}`}> 
