@@ -7,7 +7,8 @@ import webAppTesting from '../assets/images/blog/web-app-testing.svg';
 
 const getPostByUrl = (path) => {
     const currPost = posts.find(post => post.url === path);
-    return currPost
+    if (currPost) return currPost;
+    else return { "header": "404: not found"}
 }
 
 const getPosts = () => {

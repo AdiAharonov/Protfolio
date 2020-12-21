@@ -7,7 +7,9 @@ const getMode = () => {
    return mode;
 }
 
+
 export const LocalStorageService = {
     setMode,
     getMode
+   
 }

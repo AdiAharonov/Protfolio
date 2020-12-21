@@ -28,7 +28,7 @@ export const Blog = () => {
             {posts && <Carousel posts={posts}/>}
 
 
-            <span className="to-site-link"><Link to="/">Check My Site</Link></span>
+            <span className="to-site-link"><Link to="/">CHECK MY SITE</Link></span>
 
 
             <footer>All rights reserved © Adi Aharonov</footer>

@@ -4,19 +4,11 @@ import { BlogPostLink } from '../BlogPost';
 
 export const Carousel = ({posts}) => {
 
-    const [currPostIdx, setCurrPostIdx] = useState(1);
-    const [nextPostIdx, setNextPostIdx] = useState(2);
-    const [prevPostIdx, setPrevPostIdx] = useState(0);
+    const [currPostIdx, setCurrPostIdx] = useState(2);
+    const [nextPostIdx, setNextPostIdx] = useState(3);
+    const [prevPostIdx, setPrevPostIdx] = useState(1);
 
 
-// useEffect(() => {
-// if (currPostIdx === posts.length - 1)  {
-// setNextPostIdx(0)
-// }
-// else if (currPostIdx === 0)  {
-// setPrevPostIdx(posts.length - 1)
-// }
-// }, [currPostIdx]);
 
 const next = () => {
     if (currPostIdx === (posts.length - 2)) {

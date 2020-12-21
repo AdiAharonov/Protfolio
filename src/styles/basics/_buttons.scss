@@ -70,11 +70,8 @@
       width: 35px;
       height: 85%;
       background-color: transparentize($main, 0.8);
-    
+      -webkit-tap-highlight-color: transparent;
       
-      &.left-side {
-        
-      }
 
       &.right-side {
         transform: translateX(58px);
@@ -110,15 +107,3 @@
   }
 }
 
-/* Animations */
-
-// toggle button indicator animation
-
-// @keyframes indicator {
-//   0% {
-//     transform: translateX(0px);
-//   }
-//   100% {
-//     transform: translateX(58px);
-//   }
-// }

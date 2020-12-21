@@ -148,7 +148,7 @@
             {
                 "type": "link",
                 "content": "adiaharonov.com/blog",
-                "source": "https://adiaharonov.com/blog"
+                "source": "/#blog"
             }
         ],
         "url": "js-job-interview"
@@ -477,7 +477,7 @@
             {
                 "type": "link",
                 "content": "adiaharonov.com/blog",
-                "source": "https://adiaharonov.com/blog"
+                "source": "/#blog"
             }
         ],
         "url": "testing"
@@ -540,7 +540,7 @@
             },
             {
                 "type": "p",
-                "content": "the second reason is that it's very popular among high-tech companies, If you're planning to work in big company chances are you will need to learn this so the sooner the better."
+                "content": "the second reason is that it's very popular among high-tech companies, If you're planning to work in a big company, you will need to learn this so the sooner the better."
             },
             {
                 "type": "p",
@@ -567,7 +567,7 @@
             {
                 "type": "link",
                 "content": "adiaharonov.com/blog",
-                "source": "https://adiaharonov.com/blog"
+                "source": "/#blog"
             }
         ],
         "url": "tdd"
@@ -660,7 +660,7 @@
             {
                 "type": "link",
                 "content": "adiaharonov.com/blog",
-                "source": "https://adiaharonov.com/blog"
+                "source": "/#blog"
             }
         ],
         "url": "open-source"

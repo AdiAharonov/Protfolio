@@ -24,7 +24,6 @@ export const BlogPostPage = () => {
 
             {post && <h1>{post.header}</h1>}
     {post.contentArr && post.contentArr.map((p, idx) => {
-        // p.type === 'h' ? <h2 key={idx}>{p.content}</h2> : <p key={idx}>{p.content}</p>
         if (p.type === 'h') {
             return <h2 key={idx}>{p.content}</h2>
         } else if (p.type === 'p') {
